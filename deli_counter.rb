@@ -19,3 +19,7 @@ def take_a_number(katz_deli,name)
   size = katz_deli.count
   puts "Welcome, #{katz_deli[size-1]}. You are number #{size} in line."
 end
+
+def now_serving(katz_deli)
+  "currently serving "+katz_deli[katz_deli.count-1]+"."
+end
