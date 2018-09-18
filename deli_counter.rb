@@ -8,7 +8,6 @@ def line(katz_deli)
         line_print+="#{index+1}. #{member} "
       end
       line_print=line_print.split(" ")
-      puts "#{line_print}"
       line_print=line_print.join(" ")
    end
    puts line_print
