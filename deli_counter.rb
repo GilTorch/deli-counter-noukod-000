@@ -11,5 +11,5 @@ def line(katz_deli)
       puts "#{line_print}"
       line_print=line_print.join(" ")
    end
-   return line_print
+   puts line_print
 end
