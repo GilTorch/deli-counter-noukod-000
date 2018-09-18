@@ -8,5 +8,5 @@ def line(katz_deli)
         line_print+="#{index+1}. #{member} "
       end
    end
-   return line_print
+   puts line_print
 end
