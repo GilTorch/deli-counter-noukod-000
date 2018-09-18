@@ -7,6 +7,6 @@ def line(katz_deli)
       katz_deli.each_with_index do |member,index|
         line_print+="#{index+1}. #{member} "
       end
+      puts line_print
    end
-   puts line_print
 end
